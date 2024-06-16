@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.ChainOfResponsibi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Command", "SkillTree.Command\SkillTree.Command.csproj", "{1378333A-2483-4CB3-B7A4-329A858849EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Strategy", "SkillTree.Strategy\SkillTree.Strategy.csproj", "{3694050D-337D-4453-B78C-3A3050BE0372}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1378333A-2483-4CB3-B7A4-329A858849EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1378333A-2483-4CB3-B7A4-329A858849EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1378333A-2483-4CB3-B7A4-329A858849EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3694050D-337D-4453-B78C-3A3050BE0372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3694050D-337D-4453-B78C-3A3050BE0372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3694050D-337D-4453-B78C-3A3050BE0372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3694050D-337D-4453-B78C-3A3050BE0372}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
