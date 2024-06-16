@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Middleware", "SkillTree.Middleware\SkillTree.Middleware.csproj", "{D0C77354-F627-4944-AE57-B6187457E0C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Middleware", "SkillTree.Middleware\SkillTree.Middleware.csproj", "{D0C77354-F627-4944-AE57-B6187457E0C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.LibraryCreation.StopWatchExtension", "SkillTree.LibraryCreation.StopWatchExtension\SkillTree.LibraryCreation.StopWatchExtension.csproj", "{DABD5518-721C-400E-A555-B1494273AD18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.LibraryCreation.StopWatchExtension", "SkillTree.LibraryCreation.StopWatchExtension\SkillTree.LibraryCreation.StopWatchExtension.csproj", "{DABD5518-721C-400E-A555-B1494273AD18}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkilTree.AsyncProgramming", "SkilTree.AsyncProgramming\SkilTree.AsyncProgramming.csproj", "{770AABA1-5CC3-40B0-A6A0-71E55D27EAE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.ChainOfResponsibility", "SkillTree.ChainOfResponsibility\SkillTree.ChainOfResponsibility.csproj", "{ED1BE4C8-205D-49BB-A71D-F88DFC0A962D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{770AABA1-5CC3-40B0-A6A0-71E55D27EAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{770AABA1-5CC3-40B0-A6A0-71E55D27EAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{770AABA1-5CC3-40B0-A6A0-71E55D27EAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1BE4C8-205D-49BB-A71D-F88DFC0A962D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1BE4C8-205D-49BB-A71D-F88DFC0A962D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1BE4C8-205D-49BB-A71D-F88DFC0A962D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1BE4C8-205D-49BB-A71D-F88DFC0A962D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
