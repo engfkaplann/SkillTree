@@ -18,10 +18,8 @@ namespace SkilTree.AsyncProgramming
 
             Task processTask = ProcessAsync(progress, cancellationToken);
 
-            //Wait 5 seconds
             await Task.Delay(5000);
 
-            //Cancel Task
             cancellationTokenSource.Cancel();
 
             try
