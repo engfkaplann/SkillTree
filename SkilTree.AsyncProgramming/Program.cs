@@ -18,15 +18,15 @@ namespace SkilTree.AsyncProgramming
 
             Task processTask = ProcessAsync(progress, cancellationToken);
 
-            // İşlemi 5 saniye sonra iptal etmek için
+            //Wait 5 seconds
             await Task.Delay(5000);
 
-            // İptal işlemi
+            //Cancel Task
             cancellationTokenSource.Cancel();
 
             try
             {
-                await processTask; // İşlemin tamamlanmasını bekleyin
+                await processTask;
                 Console.WriteLine("İşlem tamamlandı.");
             }
             catch (OperationCanceledException)
@@ -47,15 +47,15 @@ namespace SkilTree.AsyncProgramming
                 {
                     cancellationToken.ThrowIfCancellationRequested();
 
-                    await Task.Delay(100); // Gerçek işlem yerine Task.Delay kullanıldı
-                    progress.Report(i); // İlerleme raporlama
+                    await Task.Delay(100);
+                    progress.Report(i);
                 }
                 Console.WriteLine("İşlem tamamlandı.");
             }
             catch (OperationCanceledException)
             {
                 Console.WriteLine("İşlem iptal edildi.");
-                throw; // İptal durumunu tekrar iletmek için
+                throw;
             }
             catch (Exception ex)
             {
