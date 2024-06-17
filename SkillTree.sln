@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.State", "SkillTre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Visitor", "SkillTree.Visitor\SkillTree.Visitor.csproj", "{932F07A0-593E-47AE-B1F5-1090FD80CEDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Mediator", "SkillTree.Mediator\SkillTree.Mediator.csproj", "{13860C95-FE2F-4159-A674-E9B277882E30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{932F07A0-593E-47AE-B1F5-1090FD80CEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{932F07A0-593E-47AE-B1F5-1090FD80CEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{932F07A0-593E-47AE-B1F5-1090FD80CEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13860C95-FE2F-4159-A674-E9B277882E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13860C95-FE2F-4159-A674-E9B277882E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13860C95-FE2F-4159-A674-E9B277882E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13860C95-FE2F-4159-A674-E9B277882E30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
