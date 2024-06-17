@@ -33,13 +33,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.FactoryMethod", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.AbstractFactory", "SkillTree.AbstractFactory\SkillTree.AbstractFactory.csproj", "{6E677340-2CE3-4F65-85C0-C1CD72617851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Prototype", "SkillTree.Prototype\SkillTree.Prototype.csproj", "{B3E1BD56-4F3B-4DD3-842C-C1801BE7B1B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Prototype", "SkillTree.Prototype\SkillTree.Prototype.csproj", "{B3E1BD56-4F3B-4DD3-842C-C1801BE7B1B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Decorator", "SkillTree.Decorator\SkillTree.Decorator.csproj", "{572644E9-1BB6-4A26-BA61-129C27B22C94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Decorator", "SkillTree.Decorator\SkillTree.Decorator.csproj", "{572644E9-1BB6-4A26-BA61-129C27B22C94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Adapter", "SkillTree.Adapter\SkillTree.Adapter.csproj", "{3B51C95B-F657-4062-AFA6-95AA0355A2E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Adapter", "SkillTree.Adapter\SkillTree.Adapter.csproj", "{3B51C95B-F657-4062-AFA6-95AA0355A2E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Facade", "SkillTree.Facade\SkillTree.Facade.csproj", "{B165948D-961E-467E-A5CD-A8CCE47E721D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Facade", "SkillTree.Facade\SkillTree.Facade.csproj", "{B165948D-961E-467E-A5CD-A8CCE47E721D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Bridge", "SkillTree.Bridge\SkillTree.Bridge.csproj", "{EBC373CA-BC04-4C50-916B-8984EA6EC45C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{B165948D-961E-467E-A5CD-A8CCE47E721D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B165948D-961E-467E-A5CD-A8CCE47E721D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B165948D-961E-467E-A5CD-A8CCE47E721D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC373CA-BC04-4C50-916B-8984EA6EC45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC373CA-BC04-4C50-916B-8984EA6EC45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC373CA-BC04-4C50-916B-8984EA6EC45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC373CA-BC04-4C50-916B-8984EA6EC45C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
