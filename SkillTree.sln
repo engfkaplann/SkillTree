@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33213.308
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Middleware", "SkillTree.Middleware\SkillTree.Middleware.csproj", "{D0C77354-F627-4944-AE57-B6187457E0C6}"
 EndProject
@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Memento", "SkillT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.State", "SkillTree.State\SkillTree.State.csproj", "{4D7A8E29-1C47-42F9-9AFD-F0585559079E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Visitor", "SkillTree.Visitor\SkillTree.Visitor.csproj", "{932F07A0-593E-47AE-B1F5-1090FD80CEDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Visitor", "SkillTree.Visitor\SkillTree.Visitor.csproj", "{932F07A0-593E-47AE-B1F5-1090FD80CEDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Mediator", "SkillTree.Mediator\SkillTree.Mediator.csproj", "{13860C95-FE2F-4159-A674-E9B277882E30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Mediator", "SkillTree.Mediator\SkillTree.Mediator.csproj", "{13860C95-FE2F-4159-A674-E9B277882E30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Interpreter", "SkillTree.Interpreter\SkillTree.Interpreter.csproj", "{411777AB-DE1C-413E-872C-5D22BD702C36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{13860C95-FE2F-4159-A674-E9B277882E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13860C95-FE2F-4159-A674-E9B277882E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13860C95-FE2F-4159-A674-E9B277882E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411777AB-DE1C-413E-872C-5D22BD702C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411777AB-DE1C-413E-872C-5D22BD702C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411777AB-DE1C-413E-872C-5D22BD702C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411777AB-DE1C-413E-872C-5D22BD702C36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
