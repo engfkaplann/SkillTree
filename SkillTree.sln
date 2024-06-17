@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Middleware", "SkillTree.Middleware\SkillTree.Middleware.csproj", "{D0C77354-F627-4944-AE57-B6187457E0C6}"
 EndProject
@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Visitor", "SkillT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Mediator", "SkillTree.Mediator\SkillTree.Mediator.csproj", "{13860C95-FE2F-4159-A674-E9B277882E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Interpreter", "SkillTree.Interpreter\SkillTree.Interpreter.csproj", "{411777AB-DE1C-413E-872C-5D22BD702C36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Interpreter", "SkillTree.Interpreter\SkillTree.Interpreter.csproj", "{411777AB-DE1C-413E-872C-5D22BD702C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Singleton", "SkillTree.Singleton\SkillTree.Singleton.csproj", "{ED42399B-71EF-4220-9E1D-D73DE0A4969E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{411777AB-DE1C-413E-872C-5D22BD702C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{411777AB-DE1C-413E-872C-5D22BD702C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{411777AB-DE1C-413E-872C-5D22BD702C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED42399B-71EF-4220-9E1D-D73DE0A4969E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED42399B-71EF-4220-9E1D-D73DE0A4969E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED42399B-71EF-4220-9E1D-D73DE0A4969E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED42399B-71EF-4220-9E1D-D73DE0A4969E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
