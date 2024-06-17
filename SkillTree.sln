@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.AbstractFactory",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Prototype", "SkillTree.Prototype\SkillTree.Prototype.csproj", "{B3E1BD56-4F3B-4DD3-842C-C1801BE7B1B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Decorator", "SkillTree.Decorator\SkillTree.Decorator.csproj", "{572644E9-1BB6-4A26-BA61-129C27B22C94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{B3E1BD56-4F3B-4DD3-842C-C1801BE7B1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E1BD56-4F3B-4DD3-842C-C1801BE7B1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3E1BD56-4F3B-4DD3-842C-C1801BE7B1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572644E9-1BB6-4A26-BA61-129C27B22C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572644E9-1BB6-4A26-BA61-129C27B22C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572644E9-1BB6-4A26-BA61-129C27B22C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572644E9-1BB6-4A26-BA61-129C27B22C94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
