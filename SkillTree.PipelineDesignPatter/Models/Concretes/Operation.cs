@@ -9,13 +9,13 @@ namespace SkillTree.PipelineDesignPatter.Models.Concretes
 {
     public class Operation<T> : IOperation<T>
     {
-        private readonly Action<T> action;
+        private readonly Action<T> _action;
 
         public Operation(Action<T> action)
         {
-            this.action = action;
+            this._action = action;
         }
 
-        public void Invoke(T data) => action(data);
+        public void Invoke(T data) => _action(data);
     }
 }
