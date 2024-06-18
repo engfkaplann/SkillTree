@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Observer", "Skill
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Repository", "SkillTree.Repository\SkillTree.Repository.csproj", "{EA376FE2-CE82-43B7-91BA-78B82178BBF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.VersionedRepositoryPattern", "SkillTree.VersionedRepositoryPattern\SkillTree.VersionedRepositoryPattern.csproj", "{7DB0BF2B-68EA-4B5D-AF2F-8CFC41736E5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{EA376FE2-CE82-43B7-91BA-78B82178BBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA376FE2-CE82-43B7-91BA-78B82178BBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA376FE2-CE82-43B7-91BA-78B82178BBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB0BF2B-68EA-4B5D-AF2F-8CFC41736E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB0BF2B-68EA-4B5D-AF2F-8CFC41736E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB0BF2B-68EA-4B5D-AF2F-8CFC41736E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB0BF2B-68EA-4B5D-AF2F-8CFC41736E5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
