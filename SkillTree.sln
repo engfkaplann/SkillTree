@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.VersionedReposito
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.PipelineDesignPatter", "SkillTree.PipelineDesignPatter\SkillTree.PipelineDesignPatter.csproj", "{F50053FA-D676-46D2-9016-731BA7129599}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.ObjectPoolingPattern", "SkillTree.ObjectPoolingPattern\SkillTree.ObjectPoolingPattern.csproj", "{9AB62898-0271-4FBC-BA0A-417AEC289C0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{F50053FA-D676-46D2-9016-731BA7129599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F50053FA-D676-46D2-9016-731BA7129599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F50053FA-D676-46D2-9016-731BA7129599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB62898-0271-4FBC-BA0A-417AEC289C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB62898-0271-4FBC-BA0A-417AEC289C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB62898-0271-4FBC-BA0A-417AEC289C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB62898-0271-4FBC-BA0A-417AEC289C0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
