@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.ObjectPoolingPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.XMLParsing", "SkillTree.XMLParsing\SkillTree.XMLParsing.csproj", "{57417C67-E81B-4C14-AD3D-B9DC99FA169D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.ExceptionHandling", "SkillTree.ExceptionHandling\SkillTree.ExceptionHandling.csproj", "{04B7CBA3-7784-4931-ACC3-14C5EA82D75B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{57417C67-E81B-4C14-AD3D-B9DC99FA169D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57417C67-E81B-4C14-AD3D-B9DC99FA169D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57417C67-E81B-4C14-AD3D-B9DC99FA169D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B7CBA3-7784-4931-ACC3-14C5EA82D75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B7CBA3-7784-4931-ACC3-14C5EA82D75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B7CBA3-7784-4931-ACC3-14C5EA82D75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B7CBA3-7784-4931-ACC3-14C5EA82D75B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
