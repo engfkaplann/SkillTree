@@ -41,31 +41,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Adapter", "SkillT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Facade", "SkillTree.Facade\SkillTree.Facade.csproj", "{B165948D-961E-467E-A5CD-A8CCE47E721D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Bridge", "SkillTree.Bridge\SkillTree.Bridge.csproj", "{EBC373CA-BC04-4C50-916B-8984EA6EC45C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Bridge", "SkillTree.Bridge\SkillTree.Bridge.csproj", "{EBC373CA-BC04-4C50-916B-8984EA6EC45C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Composite", "SkillTree.Composite\SkillTree.Composite.csproj", "{93A81C1E-25A7-4C96-84A3-E713B133A1D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Composite", "SkillTree.Composite\SkillTree.Composite.csproj", "{93A81C1E-25A7-4C96-84A3-E713B133A1D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Proxy", "SkillTree.Proxy\SkillTree.Proxy.csproj", "{D73C6254-73BB-4EF4-AC4B-EE76EFAE70F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Proxy", "SkillTree.Proxy\SkillTree.Proxy.csproj", "{D73C6254-73BB-4EF4-AC4B-EE76EFAE70F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Observer", "SkillTree.Observer\SkillTree.Observer.csproj", "{F066E5D5-D1F5-4A77-9055-AC10AF344A8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Observer", "SkillTree.Observer\SkillTree.Observer.csproj", "{F066E5D5-D1F5-4A77-9055-AC10AF344A8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Repository", "SkillTree.Repository\SkillTree.Repository.csproj", "{EA376FE2-CE82-43B7-91BA-78B82178BBF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Repository", "SkillTree.Repository\SkillTree.Repository.csproj", "{EA376FE2-CE82-43B7-91BA-78B82178BBF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.VersionedRepositoryPattern", "SkillTree.VersionedRepositoryPattern\SkillTree.VersionedRepositoryPattern.csproj", "{7DB0BF2B-68EA-4B5D-AF2F-8CFC41736E5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.VersionedRepositoryPattern", "SkillTree.VersionedRepositoryPattern\SkillTree.VersionedRepositoryPattern.csproj", "{7DB0BF2B-68EA-4B5D-AF2F-8CFC41736E5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.PipelineDesignPatter", "SkillTree.PipelineDesignPatter\SkillTree.PipelineDesignPatter.csproj", "{F50053FA-D676-46D2-9016-731BA7129599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.PipelineDesignPatter", "SkillTree.PipelineDesignPatter\SkillTree.PipelineDesignPatter.csproj", "{F50053FA-D676-46D2-9016-731BA7129599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.ObjectPoolingPattern", "SkillTree.ObjectPoolingPattern\SkillTree.ObjectPoolingPattern.csproj", "{9AB62898-0271-4FBC-BA0A-417AEC289C0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.ObjectPoolingPattern", "SkillTree.ObjectPoolingPattern\SkillTree.ObjectPoolingPattern.csproj", "{9AB62898-0271-4FBC-BA0A-417AEC289C0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.XMLParsing", "SkillTree.XMLParsing\SkillTree.XMLParsing.csproj", "{57417C67-E81B-4C14-AD3D-B9DC99FA169D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.XMLParsing", "SkillTree.XMLParsing\SkillTree.XMLParsing.csproj", "{57417C67-E81B-4C14-AD3D-B9DC99FA169D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.ExceptionHandling", "SkillTree.ExceptionHandling\SkillTree.ExceptionHandling.csproj", "{04B7CBA3-7784-4931-ACC3-14C5EA82D75B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.ExceptionHandling", "SkillTree.ExceptionHandling\SkillTree.ExceptionHandling.csproj", "{04B7CBA3-7784-4931-ACC3-14C5EA82D75B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Serialization", "SkillTree.Serialization\SkillTree.Serialization.csproj", "{501865B9-42B7-4BDE-B8D1-C8EF137F69C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Serialization", "SkillTree.Serialization\SkillTree.Serialization.csproj", "{501865B9-42B7-4BDE-B8D1-C8EF137F69C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Reflection", "SkillTree.Reflection\SkillTree.Reflection.csproj", "{CEB94053-1F07-457A-9841-70F7C1223D08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Reflection", "SkillTree.Reflection\SkillTree.Reflection.csproj", "{CEB94053-1F07-457A-9841-70F7C1223D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.Mapping", "SkillTree.Mapping\SkillTree.Mapping.csproj", "{578DE026-AE16-4546-B647-DE45072F4939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTree.Mapping", "SkillTree.Mapping\SkillTree.Mapping.csproj", "{578DE026-AE16-4546-B647-DE45072F4939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTree.MemoryCache", "SkillTree.MemoryCache\SkillTree.MemoryCache.csproj", "{EB1F5DDE-097E-4E93-9A30-E0F57C9D834A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{578DE026-AE16-4546-B647-DE45072F4939}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{578DE026-AE16-4546-B647-DE45072F4939}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{578DE026-AE16-4546-B647-DE45072F4939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1F5DDE-097E-4E93-9A30-E0F57C9D834A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1F5DDE-097E-4E93-9A30-E0F57C9D834A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1F5DDE-097E-4E93-9A30-E0F57C9D834A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1F5DDE-097E-4E93-9A30-E0F57C9D834A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
